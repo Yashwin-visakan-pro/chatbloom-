@@ -127,7 +127,6 @@
 
     try {
       await auth.signInWithEmailAndPassword(email, password);
-      alert("Login successful 🎉");
       window.location.href = "chat.html";
     } catch (error) {
       alert("Error: " + error.message);
@@ -137,3 +136,4 @@
 
 </body>
 </html>
+
